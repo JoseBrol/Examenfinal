@@ -6,8 +6,8 @@ print("Ciclo: 2022")
 
 #Programa del animal favorito
 
-animal = input("Si su animal favorito es el perro ingrese 1, si es otro ingrese el nombre de tu animal favorito: ")
-if animal == 1:
+animal = input("Ingrese su animal favorito: ")
+if animal == "perro":
     print("Mi animal favorito también es el perro")
 else:
     print(f"Oooh, tu {animal} es interesante")
